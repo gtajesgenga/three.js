@@ -338,7 +338,7 @@
 
 				var loader = new THREE.JSONLoader();
 
-				loader.load( "models/animated/horse.js", function( geometry ) {
+				loader.load( "models/animated/horse.json", function( geometry ) {
 
 					addMorph( geometry, 550, 1, 100 - Math.random() * 1000, FLOOR, 300, true );
 					addMorph( geometry, 550, 1, 100 - Math.random() * 1000, FLOOR, 450, true );
@@ -350,19 +350,19 @@
 
 				} );
 
-				loader.load( "models/animated/flamingo.js", function( geometry ) {
+				loader.load( "models/animated/flamingo.json", function( geometry ) {
 
 					addMorph( geometry, 500, 1, 500 - Math.random() * 500, FLOOR + 350, 40 );
 
 				} );
 
-				loader.load( "models/animated/stork.js", function( geometry ) {
+				loader.load( "models/animated/stork.json", function( geometry ) {
 
 					addMorph( geometry, 350, 1, 500 - Math.random() * 500, FLOOR + 350, 340 );
 
 				} );
 
-				loader.load( "models/animated/parrot.js", function( geometry ) {
+				loader.load( "models/animated/parrot.json", function( geometry ) {
 
 					addMorph( geometry, 450, 0.5, 500 - Math.random() * 500, FLOOR + 300, 700 );
 

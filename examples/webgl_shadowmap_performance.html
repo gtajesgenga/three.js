@@ -271,7 +271,7 @@
 
 				var loader = new THREE.JSONLoader();
 
-				loader.load( "models/animated/horse.js", function( geometry ) {
+				loader.load( "models/animated/horse.json", function( geometry ) {
 
 					for ( var i = - 600; i < 601; i += 2 ) {
 
@@ -294,13 +294,13 @@
 
 				} );
 
-				loader.load( "obj/morphs/flamingo.js", function( geometry ) {
+				loader.load( "obj/morphs/flamingo.json", function( geometry ) {
 
 					addMorph( geometry, 500, 1000, 500 - Math.random() * 500, FLOOR + 350, 40 );
 
 				} );
 
-				loader.load( "obj/morphs/stork.js", function( geometry ) {
+				loader.load( "obj/morphs/stork.json", function( geometry ) {
 
 					addMorph( geometry, 350, 1000, 500 - Math.random() * 500, FLOOR + 350, 340 );
 
@@ -318,7 +318,7 @@
 
 				} );
 
-				loader.load( "obj/morphs/parrot.js", function( geometry ) {
+				loader.load( "obj/morphs/parrot.json", function( geometry ) {
 
 					addMorph( geometry, 450, 500, 500 - Math.random() * 500, FLOOR + 300, 700 );
 

@@ -76,7 +76,7 @@
 
 
 				var loader = new THREE.JSONLoader();
-				loader.load( "models/animated/flamingo.js", function( geometry ) {
+				loader.load( "models/animated/flamingo.json", function( geometry ) {
 
 					var material = new THREE.MeshPhongMaterial( {
 						color: 0xffffff,
@@ -99,7 +99,7 @@
 
 				} );
 
-				loader.load( "models/animated/flamingo.js", function( geometry ) {
+				loader.load( "models/animated/flamingo.json", function( geometry ) {
 
 					geometry.computeVertexNormals();
 					geometry.computeMorphNormals();
